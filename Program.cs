@@ -28,7 +28,7 @@ else
     else
     {
         x1 = (-b + Math.Sqrt(delta)) / (2 * a);
-        x2 = (-b + Math.Sqrt(delta)) / (2 * a);
+        x2 = (-b - Math.Sqrt(delta)) / (2 * a);
 
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine($"As raizes da equação são {x1:n1} e {x2:n1}.");
